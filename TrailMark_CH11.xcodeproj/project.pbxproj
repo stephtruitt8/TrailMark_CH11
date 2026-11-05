@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7362BD307ACD8F00A9AC29 /* TrailMarkWatch_CoHo11 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2C7362B3307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C7362C4307AD11B00A9AC29 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 2C7362C3307AD11B00A9AC29 /* Algorithms */; };
+		2C7362D5307AD31200A9AC29 /* TrailMarkCore_CoHo11 in Frameworks */ = {isa = PBXBuildFile; productRef = 2C7362D4307AD31200A9AC29 /* TrailMarkCore_CoHo11 */; };
+		2C7362D7307AD34200A9AC29 /* TrailMarkCore_CoHo11 in Frameworks */ = {isa = PBXBuildFile; productRef = 2C7362D6307AD34200A9AC29 /* TrailMarkCore_CoHo11 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C7362BB307ACD8F00A9AC29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C736299307ACB5500A9AC29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C7362B2307ACD8E00A9AC29;
+			remoteInfo = "TrailMarkWatch_CoHo11 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C7362C1307ACD8F00A9AC29 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2C7362BD307ACD8F00A9AC29 /* TrailMarkWatch_CoHo11 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C7362A1307ACB5500A9AC29 /* TrailMark_CH11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailMark_CH11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7362B3307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrailMarkWatch_CoHo11 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2C7362A3307ACB5500A9AC29 /* TrailMark_CH11 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrailMark_CH11;
+			sourceTree = "<group>";
+		};
+		2C7362B4307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TrailMarkWatch_CoHo11 Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C73629E307ACB5500A9AC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7362D5307AD31200A9AC29 /* TrailMarkCore_CoHo11 in Frameworks */,
+				2C7362C4307AD11B00A9AC29 /* Algorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7362B0307ACD8E00A9AC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7362D7307AD34200A9AC29 /* TrailMarkCore_CoHo11 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C736298307ACB5500A9AC29 = {
+			isa = PBXGroup;
+			children = (
+				2C7362A3307ACB5500A9AC29 /* TrailMark_CH11 */,
+				2C7362B4307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App */,
+				2C7362D3307AD31200A9AC29 /* Frameworks */,
+				2C7362A2307ACB5500A9AC29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C7362A2307ACB5500A9AC29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7362A1307ACB5500A9AC29 /* TrailMark_CH11.app */,
+				2C7362B3307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7362D3307AD31200A9AC29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C7362A0307ACB5500A9AC29 /* TrailMark_CH11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7362AC307ACB5600A9AC29 /* Build configuration list for PBXNativeTarget "TrailMark_CH11" */;
+			buildPhases = (
+				2C73629D307ACB5500A9AC29 /* Sources */,
+				2C73629E307ACB5500A9AC29 /* Frameworks */,
+				2C73629F307ACB5500A9AC29 /* Resources */,
+				2C7362C1307ACD8F00A9AC29 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7362BC307ACD8F00A9AC29 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C7362A3307ACB5500A9AC29 /* TrailMark_CH11 */,
+			);
+			name = TrailMark_CH11;
+			packageProductDependencies = (
+				2C7362C3307AD11B00A9AC29 /* Algorithms */,
+				2C7362D4307AD31200A9AC29 /* TrailMarkCore_CoHo11 */,
+			);
+			productName = TrailMark_CH11;
+			productReference = 2C7362A1307ACB5500A9AC29 /* TrailMark_CH11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C7362B2307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7362BE307ACD8F00A9AC29 /* Build configuration list for PBXNativeTarget "TrailMarkWatch_CoHo11 Watch App" */;
+			buildPhases = (
+				2C7362AF307ACD8E00A9AC29 /* Sources */,
+				2C7362B0307ACD8E00A9AC29 /* Frameworks */,
+				2C7362B1307ACD8E00A9AC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2C7362B4307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App */,
+			);
+			name = "TrailMarkWatch_CoHo11 Watch App";
+			packageProductDependencies = (
+				2C7362D6307AD34200A9AC29 /* TrailMarkCore_CoHo11 */,
+			);
+			productName = "TrailMarkWatch_CoHo11 Watch App";
+			productReference = 2C7362B3307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C736299307ACB5500A9AC29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					2C7362A0307ACB5500A9AC29 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					2C7362B2307ACD8E00A9AC29 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 2C73629C307ACB5500A9AC29 /* Build configuration list for PBXProject "TrailMark_CH11" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C736298307ACB5500A9AC29;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2C7362C2307AD11B00A9AC29 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				2C7362C6307AD2B600A9AC29 /* XCLocalSwiftPackageReference "../TrailMarkCore_CoHo11" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C7362A2307ACB5500A9AC29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C7362A0307ACB5500A9AC29 /* TrailMark_CH11 */,
+				2C7362B2307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C73629F307ACB5500A9AC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7362B1307ACD8E00A9AC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C73629D307ACB5500A9AC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7362AF307ACD8E00A9AC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C7362BC307ACD8F00A9AC29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C7362B2307ACD8E00A9AC29 /* TrailMarkWatch_CoHo11 Watch App */;
+			targetProxy = 2C7362BB307ACD8F00A9AC29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C7362AA307ACB5600A9AC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C7362AB307ACB5600A9AC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C7362AD307ACB5600A9AC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrailMark_CH11/TrailMark_CH11.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TrailMark-CH11-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "TrailMark records short video memos for your field journal.\n";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "TrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\nTrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\nTrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\nTrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\n";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "TrailMark saves your recorded activities to the Health app as workouts.\n";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TrailMark records the route of your journey and geotags the memos you capture.\n";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TrailMark records voice memos for your field journal.\n";
+				INFOPLIST_KEY_NSMotionUsageDescription = "TrailMark reads motion data to detect your cadence and activity.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used to pick a video on the Simulator, which has no camera. (Optional — device-only flow doesn't need it.)\n\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steph.TrailMark-CH11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7362AE307ACB5600A9AC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrailMark_CH11/TrailMark_CH11.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TrailMark-CH11-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "TrailMark records short video memos for your field journal.\n";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "TrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\nTrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\nTrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\nTrailMark reads your steps, distance, energy, heart rate and sleep to show your daily activity and recovery.\n";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "TrailMark saves your recorded activities to the Health app as workouts.\n";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TrailMark records the route of your journey and geotags the memos you capture.\n";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TrailMark records voice memos for your field journal.\n";
+				INFOPLIST_KEY_NSMotionUsageDescription = "TrailMark reads motion data to detect your cadence and activity.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used to pick a video on the Simulator, which has no camera. (Optional — device-only flow doesn't need it.)\n\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steph.TrailMark-CH11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C7362BF307ACD8F00A9AC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TrailMarkWatch_CoHo11 Watch App/TrailMarkWatch_CoHo11 Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrailMarkWatch_CoHo11;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "steph.TrailMark-CH11";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steph.TrailMark-CH11.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		2C7362C0307ACD8F00A9AC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TrailMarkWatch_CoHo11 Watch App/TrailMarkWatch_CoHo11 Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrailMarkWatch_CoHo11;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "steph.TrailMark-CH11";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steph.TrailMark-CH11.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C73629C307ACB5500A9AC29 /* Build configuration list for PBXProject "TrailMark_CH11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7362AA307ACB5600A9AC29 /* Debug */,
+				2C7362AB307ACB5600A9AC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7362AC307ACB5600A9AC29 /* Build configuration list for PBXNativeTarget "TrailMark_CH11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7362AD307ACB5600A9AC29 /* Debug */,
+				2C7362AE307ACB5600A9AC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7362BE307ACD8F00A9AC29 /* Build configuration list for PBXNativeTarget "TrailMarkWatch_CoHo11 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7362BF307ACD8F00A9AC29 /* Debug */,
+				2C7362C0307ACD8F00A9AC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2C7362C6307AD2B600A9AC29 /* XCLocalSwiftPackageReference "../TrailMarkCore_CoHo11" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../TrailMarkCore_CoHo11;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C7362C2307AD11B00A9AC29 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C7362C3307AD11B00A9AC29 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C7362C2307AD11B00A9AC29 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		2C7362D4307AD31200A9AC29 /* TrailMarkCore_CoHo11 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C7362C6307AD2B600A9AC29 /* XCLocalSwiftPackageReference "../TrailMarkCore_CoHo11" */;
+			productName = TrailMarkCore_CoHo11;
+		};
+		2C7362D6307AD34200A9AC29 /* TrailMarkCore_CoHo11 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C7362C6307AD2B600A9AC29 /* XCLocalSwiftPackageReference "../TrailMarkCore_CoHo11" */;
+			productName = TrailMarkCore_CoHo11;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C736299307ACB5500A9AC29 /* Project object */;
+}
